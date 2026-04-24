@@ -16,8 +16,8 @@ data = PyPDFLoader("document loaders/deeplearning.pdf")
 docs = data.load()
 
 splitter = RecursiveCharacterTextSplitter(
-    chunk_size = 1000,
-    chunk_overlap = 200
+    chunk_size = 500,
+    chunk_overlap = 50
 )
 
 chunks = splitter.split_documents(docs)
