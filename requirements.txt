@@ -41,7 +41,7 @@ numpy
 # Logging & utilities
 tenacity
 
-
+langchain-huggingface
 
 langchain
 langchain-core
