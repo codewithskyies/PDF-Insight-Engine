@@ -1,0 +1,64 @@
+# Core LangChain ecosystem
+langchain
+langchain-core
+langchain-community
+
+# LLM integrations
+langchain-openai
+langchain-mistralai
+
+# Vector database
+chromadb
+
+# Embeddings & tokenization
+tiktoken
+
+# Environment variables
+python-dotenv
+
+# API framework (for serving RAG app)
+fastapi
+uvicorn
+
+# File/document loaders
+pypdf
+unstructured
+beautifulsoup4
+
+# Text processing
+nltk
+
+# Optional but useful (for better retrieval)
+sentence-transformers
+
+# HTTP requests
+requests
+
+# Data handling
+pandas
+numpy
+
+# Logging & utilities
+tenacity
+
+
+
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-mistralai
+chromadb
+tiktoken
+python-dotenv
+fastapi
+uvicorn
+pypdf
+unstructured
+beautifulsoup4
+nltk
+sentence-transformers
+requests
+pandas
+numpy
+tenacity
