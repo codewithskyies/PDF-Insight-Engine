@@ -25,6 +25,9 @@ if "vectorstore" not in st.session_state:
 # ---------------- FILE UPLOAD ----------------
 uploaded_file = st.file_uploader("Upload your PDF", type="pdf")
 
+
+
+
 if uploaded_file:
     # Save file temporarily
     file_path = f"temp_{uploaded_file.name}"
@@ -43,6 +46,9 @@ if uploaded_file:
         chunk_overlap=200
     )
     chunks = splitter.split_documents(docs)
+
+    st.write("Docs:", len(docs))
+    st.write("Chunks:", len(chunks))
 
     # Embeddings
     embedding_model = HuggingFaceEmbeddings(
